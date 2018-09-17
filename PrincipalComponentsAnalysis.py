@@ -13,7 +13,6 @@ X = faces_data.data
 y = faces_data.target
 n_features = X.shape[1]
 n_classes = int(max(y) + 1)
-
 print(
     "Number of samples: {}, \nHeight of each image: {}, \nWidth of each image: {}, \nNumber of input features: {},"
     "\nNumber of output classes: {}\n".format(
